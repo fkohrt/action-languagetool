@@ -1,4 +1,4 @@
-name: 'Run LanguageTool with reviewdog'
+name: 'Run LanguageTool with reviewdog in nofilter mode'
 description: '🐶 Run LanguageTool with reviewdog on pull requests to improve code review experience.'
 author: 'haya14busa'
 inputs:
