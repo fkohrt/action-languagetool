@@ -15,6 +15,9 @@ inputs:
   reporter:
     description: 'Reporter of reviewdog command [github-pr-check,github-pr-review].'
     default: 'github-pr-check'
+  filter_mode:
+    description: 'Control how reviewdog filters results [added,diff_context,file,nofilter]'
+    default: 'added'
   ### Flags for target file ###
   patterns:
     description: 'Space separated target file glob patterns. https://github.com/haya14busa/ghglob'
