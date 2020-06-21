@@ -9,6 +9,9 @@ inputs:
   level:
     description: 'Report level for reviewdog [info,warning,error]'
     default: 'error'
+  fail_on_error:
+    description: 'Reviewdog exits with 1 when at least one error was found/reported'
+    default: 'false'
   reporter:
     description: 'Reporter of reviewdog command [github-pr-check,github-pr-review].'
     default: 'github-pr-check'
